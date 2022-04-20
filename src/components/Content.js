@@ -11,13 +11,13 @@ const Content = () => {
         <p className="text-xl">Compare up to 6 quotes from trusted moving companies and save.</p>
         <div className="bg-green-200 p-8 m-10 ">
             <form action="#">
-                <input className="px-10 py-3 p-5 outline-gray-300 mr-2" type='text'placeholder="Your Postcode" />
-                <button className="bg-green-500 font-bold px-20 py-3 text-white">
+                <input className="px-10 py-3 p-5 rounded-md outline-gray-500 mr-2" type='text'placeholder="Your Postcode" />
+                <button className="bg-green-500 font-bold rounded-md px-20 py-3 text-white hover:bg-green-700">
                 {/* <img className="w-5 h-5" src={forwardBtn} alt='forward Button' /> */}
                 Go</button>
             </form>
         </div>
-            <ol className="text-lg grid grid-cols-2 my-10">
+            <ol className="text-lg grid grid-cols-2 ">
                 <img className="w-6" src={checkIcom} alt="check Icon"/>
                 <li> Discover your ideal mover with ease</li>
                 <img className="w-6" src={checkIcom} alt="check Icon"/>
