@@ -1,6 +1,7 @@
 import React from "react";
 
-const Duties = () => {
+const Duties = (props) => {
+    
     return(
         <div className="bg-cyan-50 ">
             <div className="grid grid-cols-1">
