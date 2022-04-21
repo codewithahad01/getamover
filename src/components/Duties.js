@@ -5,6 +5,7 @@ const Duties = () => {
         <div className="bg-cyan-50 ">
             <div className="grid grid-cols-1">
                 <p>How it works</p>
+                <p></p>
                 <h2>Get connected to moving companies that match your specifications</h2>
                 <p>Look forward to enjoy your new home and let us do the hefty work. Getamover will help you move, hassle-free.</p>
             </div>
@@ -21,7 +22,6 @@ const Duties = () => {
                     <h1>Choose your preferred mover</h1>
                     <p>Take the first step towards enjoying your new home.</p>
                 </div>
-
             </div>
         </div>
         
