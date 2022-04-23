@@ -1,4 +1,5 @@
 import React from "react";
+import groupImage from '../assets/IAM-m24white.webp'
 
 
 const Footer = () => {
@@ -41,7 +42,7 @@ const Footer = () => {
                 </div>
                 <div className="">
                     <h1>Member of</h1>
-                    
+                    <img src={groupImage} alt="group pic" />
                 </div>
             </div>
 
