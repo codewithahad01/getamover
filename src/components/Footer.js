@@ -1,10 +1,13 @@
+import { data } from "autoprefixer";
 import React from "react";
 import groupImage from '../assets/IAM-m24white.webp'
 
 
 const Footer = () => {
+    const date = new Date()
+    let year = date.getFullYear
     return (
-        <div className="bg-blue-800 text-white justify-start">
+        <div className="bg-blue-800 text-white px-20">
             <div className="p-4 pt-4 px-44 py-4">
                 <a href="#home"><svg className="" xmlns="http://www.w3.org/2000/svg" width="150" height="32" viewBox="0 0 150 32">
                         <g fill="none" fill-rule="evenodd">
@@ -19,35 +22,42 @@ const Footer = () => {
             <div className="flex p-10 justify-items-center ">
                 <div className="px-32">
                     <h1 className="mb-4 font-bold text-lg">Compare quotes and save</h1>
-                    <p className="my-4"><a href="#home">Removal Companies</a></p>
-                    <p className="my-4"><a href="#home">Removal Companies</a></p>
-                    <p className="my-4"><a href="#home">Removal Companies</a></p>
-                    <p className="my-4"><a href="#home">Removal Companies</a></p> 
-                    <p><a href="#home">Removal Companies</a></p>
+                    <p className="my-4 hover:underline"><a href="#home">Removal Companies</a></p>
+                    <p className="my-4 hover:underline"><a href="#home">Removal Van</a></p>
+                    <p className="my-4 hover:underline"><a href="#home">International Companies</a></p>
+                    <p className="my-4 hover:underline"><a href="#home">Help & Advice</a></p> 
+                    <p className="hover:underline"><a href="#home">Cities</a></p>
                 </div>
                 <div className="px-32">
                     <h1 className="mb-4 font-bold text-lg">More on Getamover</h1>
-                    <p className="my-4"><a href="#home">Removal Companies</a></p>
-                    <p className="my-4"><a href="#home">Removal Companies</a></p>
-                    <p className="my-4"><a href="#home">Removal Companies</a></p>
-                    <p className="my-4"><a href="#home">Removal Companies</a></p>
-                    <p><a href="#home">Removal Companies</a></p>
+                    <p className="my-4 hover:underline"><a href="#home">What We Do</a></p>
+                    <p className="my-4 hover:underline"><a href="#home">About Us</a></p>
+                    <p className="my-4 hover:underline"><a href="#home">Frequently Ask Questions</a></p>
+                    <p className="my-4 hover:underline"><a href="#home">Contact Us</a></p>
+                    <p className="hover:underline"><a href="#home">Blog</a></p>
                 </div>
                 <div className="px-32">
                     <h1 className="mb-4 font-bold text-lg">For removal companies</h1>
-                    <p className="my-4"><a href="#home">Removal Companies</a></p>
-                    <p className="my-4"><a href="#home">Removal Companies</a></p>
-                    <p className="my-4"><a href="#home">Removal Companies</a></p>
-                    <p><a href="#home">Removal Companies</a></p>
+                    <p className="my-4 hover:underline"><a href="#home">How it Workds</a></p>
+                    <p className="my-4 hover:underline"><a href="#home">Join Us</a></p>
+                    <p className="my-4 hover:underline"><a href="#home">Partner Sign in</a></p>
+                    <p className="hover:underline"><a href="#home">Became an affilate</a></p>
                 </div>
                 <div className="px-38">
                     <h1 className="mb-4 font-bold text-lg">Member of</h1>
-                    <img src={groupImage} alt="group pic" />
+                    <a href="#home"><img className="w-36" src={groupImage} alt="group pic" /></a>
                 </div>
             </div>
 
 
-            <div></div>
+            <div className="bg-blue-900 w-full text-white text-center p-4">
+                <p>© 2022 Getamover.co.uk</p>
+                <ul className="flex px-10 justify-center">
+                    <li className="mx-2 hover:underline"><a href="#home">Disclaimer</a></li>
+                    <li className="mx-2 hover:underline"><a href="#home">Privacy</a></li>
+                    <li className="mx-2 hover:underline"><a href="#home">Cookies</a></li>
+                </ul>
+            </div>
 
         </div>
     )
