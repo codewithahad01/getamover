@@ -6,6 +6,8 @@ import Cards from './components/Cards';
 import Countries from './components/Countries';
 import Form from './components/Form';
 import Reason from './components/Reason'
+import About from './components/About';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
       <Countries />
       <Form />
       <Reason />
+      <About />
+      <Footer />
     </div>
   );
 }
