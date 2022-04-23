@@ -6,7 +6,7 @@ import Cards from './components/Cards';
 
 function App() {
   return (
-    <div>
+    <div className='w-full '>
       <Navbar />
       <Content />
       <Duties />

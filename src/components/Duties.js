@@ -3,7 +3,7 @@ import React from "react";
 const Duties = (props) => {
     
     return(
-        <div className="bg-cyan-50 ">
+        <div className="bg-cyan-50 flex flex-col-lg ">
             <div className="grid grid-cols-1">
                 <p>How it works</p>
                 <p></p>
